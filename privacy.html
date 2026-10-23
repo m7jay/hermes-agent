@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Hermes Agent</title>
+<style>
+  :root { --fg:#0f172a; --muted:#475569; --accent:#4f46e5; --line:#e2e8f0; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; color:var(--fg); background:#fff; }
+  .wrap { max-width:720px; margin:0 auto; padding:72px 24px 96px; }
+  h1 { font-size:1.9rem; margin:0 0 6px; letter-spacing:-0.02em; }
+  .sub { color:var(--muted); margin:0 0 40px; }
+  h2 { font-size:1.05rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--accent); margin:36px 0 10px; }
+  table { width:100%; border-collapse:collapse; margin:14px 0; font-size:.95rem; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-weight:600; color:var(--muted); font-size:.85rem; text-transform:uppercase; letter-spacing:.04em; }
+  code { background:#f1f5f9; padding:1px 5px; border-radius:4px; font-size:.9em; }
+  a { color:var(--accent); }
+  .callout { border-left:3px solid var(--accent); background:#f8fafc; padding:14px 18px; margin:20px 0; }
+  footer { margin-top:56px; padding-top:20px; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Privacy Policy</h1>
+  <p class="sub">Hermes Agent — last updated 23 October 2026</p>
+
+  <p>Hermes Agent ("the application") is a private, single-user tool operated by its owner.
+  This policy explains what Google user data it accesses, why, and what happens to it.</p>
+
+  <h2>Google data accessed</h2>
+  <table>
+    <tr><th>Service</th><th>Scope</th><th>Purpose</th></tr>
+    <tr><td>Gmail</td><td><code>gmail.readonly</code>, <code>gmail.modify</code>, <code>gmail.send</code></td><td>Search and read messages, apply labels, and send mail when the owner asks.</td></tr>
+    <tr><td>Calendar</td><td><code>calendar</code></td><td>List, create and delete events at the owner's request.</td></tr>
+    <tr><td>Drive</td><td><code>drive</code></td><td>Search, upload, download, organise and share the owner's own files.</td></tr>
+    <tr><td>Sheets</td><td><code>spreadsheets</code></td><td>Read and write spreadsheet cells.</td></tr>
+    <tr><td>Docs</td><td><code>documents</code></td><td>Read and edit document text.</td></tr>
+    <tr><td>Contacts</td><td><code>contacts.readonly</code></td><td>Look up names and addresses when composing mail. (Read-only; may be unused.)</td></tr>
+  </table>
+
+  <h2>How data is stored</h2>
+  <p>Data is processed and stored only on the owner's own machine. OAuth refresh tokens are kept
+  in a local file readable solely by the owner's operating-system account. Messages, files and
+  documents are fetched on demand and are not retained in any external database.</p>
+
+  <h2>Sharing</h2>
+  <p>Google user data is <strong>not sold, rented, transferred or disclosed</strong> to any third
+  party, advertiser, or data broker. It is not used to train machine-learning models, and it is
+  not used for advertising or profiling of any kind.</p>
+
+  <h2>Model processing</h2>
+  <p>When the owner asks the application to perform a task, the minimum content required for that
+  task (for example, the text of a single email) may be sent to the language-model provider the
+  owner configured. That transfer happens only on the owner's explicit request, only for the
+  data needed to answer it, and is not retained by this application.</p>
+
+  <div class="callout">
+    <strong>Limited Use disclosure.</strong> Hermes Agent's use and transfer to any other app of
+    information received from Google APIs will adhere to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+    User Data Policy</a>, including the Limited Use requirements.
+  </div>
+
+  <h2>Revocation and deletion</h2>
+  <p>The owner can revoke this application's access at any time at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+  Deleting the local token file (<code>google_token.json</code>) removes all stored credentials
+  from the machine. Because no Google data is held anywhere else, revocation and deletion are
+  immediate and complete.</p>
+
+  <h2>Children</h2>
+  <p>This application is not directed at children and is not made available to any other user.</p>
+
+  <h2>Changes</h2>
+  <p>Material changes to this policy will be reflected in the "last updated" date above.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:m7jay.agent@gmail.com">m7jay.agent@gmail.com</a></p>
+
+  <footer>Hermes Agent · personal single-user application · <a href="index.html">Home</a></footer>
+</div>
+</body>
+</html>
